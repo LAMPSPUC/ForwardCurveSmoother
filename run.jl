@@ -40,7 +40,6 @@ structural_parameters = ForwardCurveSmoother.StructuralParameters(discount_facto
 #   elementary_prices.csv - CSV file with the estimated forward curve for each trading date. This curve is composed by the elementary prices, which are contracts
 #   with the delivery period of a day. 
 #   elementary_errors.csv - CSV file with the estimated smoothed errors.                                                                  
-input_structural, output_structural = ForwardCurveSmoother.fit_structural_model(contracts, spot, 
-                                                                                                                                                structural_parameters);    
+input_structural, output_structural = ForwardCurveSmoother.fit_structural_model(contracts, spot, structural_parameters);    
                                                                                                     
 
